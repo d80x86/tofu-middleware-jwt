@@ -1,6 +1,6 @@
 ## tofu-middleware-jwt
 
-JWT （json web token, 跨域资源共享）middleware of tofu
+JWT (json web token) middleware of tofu
 详细参考 https://jwt.io/
 
 ### 安装
@@ -91,4 +91,13 @@ jwt 验证错误消息 jwt_obj 保存在 ngx.ctx.state.jwt_error
  
 ```
 > 更多详细 https://github.com/cdbattags/lua-resty-jwt
+
+
+
+
+## 依赖
+| 管理     | 包名                    | 链接                                                         |
+| -------- | ----------------------- | ------------------------------------------------------------ |
+| luarocks | cdbattagw/lua-resty-jwt | [lua-resty-jwt - LuaRocks](https://luarocks.org/modules/cdbattags/lua-resty-jwt) |
+
 
